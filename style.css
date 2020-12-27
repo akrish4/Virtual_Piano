@@ -1,17 +1,36 @@
-body {background-color: darkgreen;
-    margin: auto;
-    width: max-content;
-    padding: 25%;
-
-
+html {
+    font-family: 'Pacifico', cursive;
+    height:100%; 
 }
+body {
+    background-image: linear-gradient(120deg, #fccb90 0%, #d57eeb 100%);
+    position:absolute;
+    top:0; bottom:0; right:0; left:0; 
+}
+
 kbd {
     background-color: white;
-    height: 110px;
-    width: 40px;
-    margin: -2px;
+    height: 100%;
+    width: 63px;
+    margin: 2px;
     line-height: 150px;
+    font-size: 32px;
+    font-weight: bolder;
+    font-family: 'Pacifico', cursive;
     display: inline-block;
     text-align: center;
     border: gray solid;
+    text-shadow: 4px 4px 6px #c36bda;
+    box-shadow: 5px 5px;
+}
+
+.heading {
+    text-align: center;
+    font-size: 4rem;
+    font-weight: lighter;
+    margin-bottom: -6px;
+}
+
+.container {
+    margin: 7% 30% 12%;
 }
